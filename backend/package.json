@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.100.1",
+    "@octokit/app": "^16.1.2",
+    "@octokit/rest": "^22.0.1",
+    "@octokit/webhooks": "^14.2.0",
+    "@supabase/supabase-js": "^2.103.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
